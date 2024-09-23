@@ -1,4 +1,4 @@
-var socket = io.connect("http://localhost:4000");
+var socket = io.connect("https://chat-node-js-c95z.onrender.com/");
 
 //Query DOM
 var output = document.getElementById("output"),
